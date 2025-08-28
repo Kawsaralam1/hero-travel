@@ -13,7 +13,6 @@ body{
     width:90%;
     margin: 5rem auto;
     border-radius: 1rem;
-    
 }
 
 h3{
@@ -32,7 +31,6 @@ p,li {
     font-weight: normal;
     line-height: normal;
     text-align: center;
-    /* border:2px solid green; */
 }
 
 
@@ -83,7 +81,6 @@ p,li {
         display:flex;
         justify-content: center;
         align-items: center;
-        /* flex-direction: column; */
 }
 
 .explore-container h3 {
@@ -140,8 +137,6 @@ input, select{
     font-weight: 800;
 }
 
-/* Banner Section Css style ends here  */
-
 
 /* Our Popular Tours Section Css style start here  */
 .popular-section{
@@ -170,4 +165,65 @@ input, select{
 .text-content li {
     text-align: left;
 }
-/* Our Popular Tours Section Css style start here  */
+
+/* Choose Your Destination Css Style */
+
+.your-destination img{
+    width:100%;
+    height:300px;
+    filter:brightness(70%);
+}
+
+.row-1,
+.row-2,
+.row-3{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem 0;
+    gap:1rem;
+}
+.row-2{
+     grid-template-columns: 0.8fr 1.5fr 0.7fr;
+}
+.row-3{
+     grid-template-columns: 0.75fr 1.25fr;
+}
+.country-card{
+    position:relative;
+}
+
+.country{
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:white;
+    font-size: 28px;
+    font-weight: bold;
+    transform:translate(-50%,-50%);
+}
+
+        /* Footer Section  */
+
+    .footer-section{
+        background: rgba(19, 19, 24, 0.05);
+        padding:2rem 0;
+    }
+    .footer-section .logo{
+        margin:2rem auto;
+    }
+
+    .social{
+        width:200px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem auto;
+    }
+    .social i{
+        height:44px;
+        font-size: 24px;
+    }
+    .footer-section hr{
+        border: 1px solid rgba(19, 19, 24, 0.1);
+        margin: 2rem auto;
+    }
