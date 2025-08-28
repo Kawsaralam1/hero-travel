@@ -13,7 +13,6 @@ body{
     width:90%;
     margin: 5rem auto;
     border-radius: 1rem;
-    border:2px solid red;
 }
 
 h3{
@@ -31,6 +30,7 @@ p,li {
     font-size: 1.2rem;
     font-weight: normal;
     line-height: normal;
+    text-align: center;
     /* border:2px solid green; */
 }
 
@@ -46,23 +46,96 @@ p,li {
     display:flex;
     align-items:center ;
     width:280px;
-    border:1px solid gold;
+    
 }
 
 .logo img{
     width:48px;
     height:56px;
     margin-right:0.5rem;
-    border:1px solid firebrick;
+    
 }
 
 .nav-option{
     display:flex;
     justify-content: space-evenly;
     gap:3rem;
-    border:1px solid peru;
 }
 
 .nav-option p {
     cursor:pointer;
 }
+
+
+
+/* Banner Section Css style starts here  */
+
+.explore-your-travel{
+    background-image: linear-gradient(
+        180deg, rgba(19, 19, 24, 0.8),
+        rgba(19, 19, 24, 0) 100%),
+        url(../Images/banner-bg.png);
+        padding: 7rem 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: column; */
+}
+
+.explore-container h3 {
+    color:white;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.explore-container p{
+    color: rgba(255, 255, 255, 1);
+    width:676px;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 1.5rem 0;
+    margin:auto;
+}
+
+.travel-inputs{
+    margin-top: 2rem;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    padding:1rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+
+input, select{
+    width:175px;
+    height:50px;
+    border-radius: 8px;
+    padding:0 0.5rem;
+    margin: 0 1rem;
+    font-size: 16px;
+    border:none;
+    cursor:pointer;
+}
+
+.btn-primary{
+    width:175px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 16px;
+    gap:8px;
+    padding:0.7rem 1.2rem;
+    border:1px solid rgba(255, 84, 0, 1);
+    background-color:rgba(255, 84, 0, 1);
+    color:white;
+}
+
+/* Banner Section Css style ends here  */
