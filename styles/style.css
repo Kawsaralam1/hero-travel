@@ -13,6 +13,7 @@ body{
     width:90%;
     margin: 5rem auto;
     border-radius: 1rem;
+    
 }
 
 h3{
@@ -136,6 +137,37 @@ input, select{
     border:1px solid rgba(255, 84, 0, 1);
     background-color:rgba(255, 84, 0, 1);
     color:white;
+    font-weight: 800;
 }
 
 /* Banner Section Css style ends here  */
+
+
+/* Our Popular Tours Section Css style start here  */
+.popular-section{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 100px;
+}
+
+.text-content{
+    display:flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: space-between;
+}
+
+.text-content p,
+.text-content li{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(19, 19, 24, 0.7);
+}
+
+.text-content h3,
+.text-content p,
+.text-content li {
+    text-align: left;
+}
+/* Our Popular Tours Section Css style start here  */
